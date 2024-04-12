@@ -7,7 +7,7 @@
  ## Usage :
 
 ```
-Usage: python3 MedusaL4.py <times> <ip> <port> <packet> <threads>
+Usage: python3 MedusaL4.py <ip> <port> <packet> <threads> <times>
 ````
 
 ## Tool Display :
